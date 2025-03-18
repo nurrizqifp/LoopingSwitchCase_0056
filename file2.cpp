@@ -21,4 +21,14 @@ int main () {
     cout << "Nilai x akhir : " << x << endl;
     cout << "Jumlah perulangan : " << perulanganDoWhile << endl;
     cout << endl;
+
+    //Perulangan Do While
+    cout << "Perulangan Do while" << endl;
+    do{
+       cout << "Nilai x : " << x << " Lari Keliling Lapangan" << endl;
+       x = rand() % 10;
+       perulanganDoWhile;
+    } while (x < 7);
+    cout << "Nilai x akhir : " << x << endl;
+    cout << "Jumlah perulangan : " << perulanganDoWhile << endl;
 }
